@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#input, #output {
+  width: 40vw;
+  height: 100vh;
+}
+
+/******************************************************************************
+* Drawing Canvas
+******************************************************************************/
+#input canvas {
+  background-color: black;
+  width: 50vh;
+  height: 50vh;
+  display: block;
+  margin: 20% auto 5%;
+}
+
+/******************************************************************************
+* Prediction Button
+******************************************************************************/
+#input button {
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #67B7DC;
+  border-color: #67B7DC;
+  color: #FFF;
+  font-size: 15px;
+}
+
+#input button:focus {
+  outline: 0;
+}
+
+/******************************************************************************
+* amCharts4
+******************************************************************************/
+#output #chartdiv {
+  margin: 50px auto;
+  width: 90%;
+  height: 500px;
+}
