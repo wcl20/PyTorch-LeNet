@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ```
 Run program 
 ```bash
+export FLASK_APP=app.py
 flask run
 ```
 The webpage should be running on [http://localhost:5000](http://localhost:5000).
